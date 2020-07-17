@@ -25,10 +25,30 @@ const FeatureBlock = styled.div`
     margin: 20px;
     background-image: linear-gradient(#1C262C, #151A1D);
     border-radius: 10px;
+    position: relative;
+    z-index: 0;
 
     h3 {
         margin: 20px 0;
     }
+`;
+
+const IconWrapper = styled.div`
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 35px;
+        position:relative; 
+        opacity: 0.4;
+        margin-top: 15px;
+    }    
 `;
 
 const SeeMoreWrapper = styled.div`
@@ -44,6 +64,9 @@ const Features = (props) => {
             if (ind < 3) {
                 return (
                     <FeatureBlock>
+                        <IconWrapper>
+                            <img src={el.icon} />
+                        </IconWrapper>
                         <h3>{el.title}</h3>
                         <p>{el.description}</p>
                     </FeatureBlock>
@@ -56,6 +79,9 @@ const Features = (props) => {
         return count.map((el, ind, arr) => {
             return (
                 <FeatureBlock>
+                    <IconWrapper>
+                        <img src={el.icon} />
+                    </IconWrapper>
                     <h3>{el.title}</h3>
                     <p>{el.description}</p>
                 </FeatureBlock>

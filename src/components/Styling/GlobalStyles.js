@@ -42,6 +42,7 @@ export const GlobalStyle = createGlobalStyle`
         background: ${props => props.theme.colors.main_bg};
         color: ${props => props.theme.colors.text};
         font-family: ${props => props.theme.fonts.body};
+        -webkit-font-smoothing: subpixel-antialiased !important; 
     }
 
     body::-webkit-scrollbar { width: 0 !important }

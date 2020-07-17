@@ -10,8 +10,10 @@ import Team from "../components/About/Team";
 import landingInfo from '../data/landingInfo.json'
 
 const AboutHeader = styled.div`
-    padding: 100px 30px; 
+    padding: 150px 30px; 
     text-align: center;
+    max-width: 700px;
+    margin: auto;
 
     h1 {
       padding: 20px 0;
@@ -29,8 +31,14 @@ const About = () => {
     <Layout data={landingInfo}>
       <SEO title="About" />
       <AboutHeader>
-          <h1>fds</h1>
-          <p>Starplan is a real-time browser multiplayer game (MMO) where players build their own galactic empires.</p>
+          <h1>We're bringing back browser games</h1>
+          <br />
+          <p>Build your own empire by conquesting other player's regions, trading, spying, researching technology, crafting perks... and much more!</p>
+          <br />
+          <p>Starplan takes inspiration of those text-based browser games that defined the 2000s such as Ogame, Grepolis, Ikariam... and pushes the medium forward by implementing highly innovative and modern new functionalities.</p>
+          <br />
+          <p>Starplan is an independent project (no big names behind it), and can be downloaded or played directly in the browser.</p>
+          <br />
       </AboutHeader>
       <Stepper />
       <Team />

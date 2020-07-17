@@ -13,55 +13,67 @@
         },
         {
             "linkName": "Changelog",
+            "external": true,
             "path": "https://www.reddit.com/r/starplan/wiki/changelog"
         },
         {
             "linkName": "News",
+            "external": true,
             "path": "https://www.reddit.com/r/starplan/"
         }
     ],
     "socialLinks": [
         {
             "socialLink": "Reddit",
-            "path": "/",
-            "icon": "https://unpkg.com/simple-icons@v2/icons/reddit.svg"
-        },
-        {
-            "socialLink": "Reddit",
-            "path": "/",
+            "path": "https://www.reddit.com/r/starplan/",
             "icon": "https://unpkg.com/simple-icons@v2/icons/reddit.svg"
         }
     ],
     "features": [
         {
-            "icon": "star",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjQgMy44NzVsLTYgMS4yMjEgMS43MTYgMS43MDgtNS4zNTEgNS4zNTgtMy4wMDEtMy4wMDItNy4zMzYgNy4yNDIgMS40MSAxLjQxOCA1LjkyMi01LjgzNCAyLjk5MSAyLjk5MyA2Ljc4MS02Ljc2MiAxLjY2NyAxLjY2IDEuMjAxLTYuMDAyem0wIDE3LjEyNXYyaC0yNHYtMjJoMnYyMGgyMnoiLz48L3N2Zz4=",
             "title": "Your resources. Your empire.",
             "description": "You decide how to invest your resources to expand your galactic empire."
         },
             {
-            "icon": "star",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMi40NDcgMjRoLS44OTRjLS4yMzUgMC0uNDYxLS4wNzktLjYxNi0uMjE4bC0xLjE4Ny0uNzgyaDQuNWwtMS4xODguNzgyYy0uMTU0LjEzOS0uMzguMjE4LS42MTUuMjE4em0xLjg0NS0yaC00LjU1OGMtLjI3NiAwLS41LS4yMjMtLjUtLjUgMC0uMjc2LjIyNC0uNS41LS41aDQuNTU4Yy4yNzYgMCAuNS4yMjQuNS41IDAgLjI3Ny0uMjI0LjUtLjUuNXptLjQ5NC0yaC01LjU3MmMwLTMuOTQ5LTMuMjE0LTUuNjU5LTMuMjE0LTkuMjI4IDAtMy43MjMgMi45OTgtNS43NzIgNS45OTctNS43NzIgMy4wMDEgMCA2LjAwMyAyLjA1MiA2LjAwMyA1Ljc3MiAwIDMuNTY5LTMuMjE0IDUuMjI0LTMuMjE0IDkuMjI4em0tMi43ODktOWwuNzUtM2gtMmwtMS4yNiA1aDIuNTA1bC0uNzUgM2gybDEuMjQ1LTVoLTIuNDl6bTcuNzQyIDEuNzcxbDIuNjk5IDEuMjI0LS44MjcgMS44MjItMi41OTYtMS4xNzdjLjMwMS0uNi41NS0xLjIxNS43MjQtMS44Njl6bS0xNS40NzcgMGMuMTczLjY2NC40MTUgMS4yNjEuNzE5IDEuODdsLTIuNTkyIDEuMTc2LS44MjctMS44MjIgMi43LTEuMjI0em0xOC43MzgtMS43NzFoLTMuMDAzYy4wMjEtLjY3LS4wNC0xLjM0NS0uMTg1LTJoMy4xODh2MnptLTE4Ljk5NyAwaC0zLjAwM3YtMmgzLjE4N2MtLjE0My42NTQtLjIwMyAxLjMyNi0uMTg0IDEuOTk1di4wMDV6bTE0LjA0LTUuNDI4bDIuNDg1LTEuNzYzIDEuMTU4IDEuNjMxLTIuNTA1IDEuNzc3Yy0uMjkyLS41ODItLjY3LTEuMTMyLTEuMTM4LTEuNjQ1em0tMTIuMDg3LS4wMDFjLS40Ni41MDMtLjgzNyAxLjA1LTEuMTM4IDEuNjQ1bC0yLjUwMy0xLjc3NiAxLjE1Ny0xLjYzMSAyLjQ4NCAxLjc2MnptOC44NjktMi4wOTJsMS4zMjctMi42OSAxLjc5My44ODUtMS4zMjcgMi42OWMtLjU1Ny0uMzY3LTEuMTYxLS42NjQtMS43OTMtLjg4NXptLTUuNjUxLS4wMDJjLS42MzEuMjItMS4yMzYuNTE2LTEuNzk0Ljg4NGwtMS4zMjYtMi42ODcgMS43OTQtLjg4NSAxLjMyNiAyLjY4OHptMy44MjYtLjQxNmMtLjY2OC0uMDc4LTEuMzA5LS4wODItMi0uMDAzdi0zLjA1OGgydjMuMDYxeiIvPjwvc3ZnPg==",
             "title": "Text-Based Gameplay.",
             "description": "Starplan can be accessed anywhere with an internet connection on all devices."
         },
         {
-            "icon": "star",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTMuNDA4IDE4Yy40OTgtMy45NDcgNS41OTItNy4xOTcgNS41OTItMTdoLTE0YzAgOS44MDMgNS4xMDUgMTMuMDUzIDUuNjA0IDE3aDIuODA0em0tMy42MTQtMTEuNDcybDEuNDYtLjIwMi42NDMtMS4zMjYuNjQzIDEuMzI2IDEuNDYuMjAyLTEuMDYzIDEuMDIxLjI2IDEuNDUxLTEuMy0uNjk1LTEuMy42OTUuMjYtMS40NTEtMS4wNjMtMS4wMjF6bS0zLjgwMyA0LjEyOGMuMjg2LjYzOC41ODUgMS4yMzEuODgyIDEuNzgzLTQuMDY1LTEuMzQ4LTYuNTAxLTUuMzM0LTYuODczLTkuNDM5aDQuMDc3Yy4wMzYuNDgyLjA4Ljk1NS4xMzkgMS40MDVoLTIuNjg5Yy40MjcgMi4wMDEgMS41NDkgNC43MjkgNC40NjQgNi4yNTF6bTEwLjAwOSAxMC45NjN2MS4zODFoLTh2LTEuMzgxYzEuOTQxIDAgMi4zNjktMS40MzMgMi41NzEtMi42MTloMi44NjZjLjE5MyAxLjE4Ny41NjUgMi42MTkgMi41NjMgMi42MTl6bTgtMTguNjE5Yy0uMzcyIDQuMTA1LTIuODA4IDguMDkxLTYuODczIDkuNDM4LjI5Ny0uNTUyLjU5Ni0xLjE0NS44ODItMS43ODMgMi45MTUtMS41MjEgNC4wMzctNC4yNSA0LjQ2NC02LjI1MWgtMi42ODhjLjA1OS0uNDUuMTAzLS45MjIuMTM5LTEuNDA1aDQuMDc2eiIvPjwvc3ZnPg==",
             "title": "Modern and smooth User Experience.",
-            "description": "You decide how to invest your resources to expand your galactic empire."
+            "description": "Modern user interface built using the latest web technologies."
         },
         {
-            "icon": "star",
-            "title": "Modern and smooth User Experience.",
-            "description": "You decide how to invest your resources to expand your galactic empire."
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgNS4xNzNsMi4zMzUgNC44MTcgNS4zMDUuNzMyLTMuODYxIDMuNzEuOTQyIDUuMjctNC43MjEtMi41MjR2LTEyLjAwNXptMC00LjU4NmwtMy42NjggNy41NjgtOC4zMzIgMS4xNTEgNi4wNjQgNS44MjgtMS40OCA4LjI3OSA3LjQxNi0zLjk2NyA3LjQxNiAzLjk2Ni0xLjQ4LTguMjc5IDYuMDY0LTUuODI3LTguMzMyLTEuMTUtMy42NjgtNy41Njl6Ii8+PC9zdmc+",
+            "title": "Conquest regions. Control planets.",
+            "description": "Take control over a planet and access the most powerful planet perks."
         },
         {
-            "icon": "star",
-            "title": "Modern and smooth User Experience.",
-            "description": "You decide how to invest your resources to expand your galactic empire."
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgMjRoLTE0di0yaDE0djJ6bS0xMC0yNGMuNTQyIDYuMjkyLTUgOC40NTgtNSAxNCAwIDMuNzY0IDMuMDg0IDYuNDIgNi41OTQgNy4wMDUtMS4wOTQtMS43NTUtLjA3My00LjI4NiAxLjQwNi01LjY5MyAxLjUzMSAxLjQ2OSAyLjM0NCA0LjE1NiAxLjI4MSA1LjY4OCAzLjg2OC0uNzUgNi43MTktMy44NTggNi43MTktNy44MzMgMC0zLjYyNS0xLjgzMy03LjA0Mi01LjI5MS05LjE2Ny44MjIgMi4yODEtLjI3MSA0LjM2NS0xLjMzNCA1LjA4My4wNjMtMi45MjEtMS03LjI1NS00LjM3NS05LjA4M3oiLz48L3N2Zz4=",
+            "title": "Trade or fight with other players.",
+            "description": "Will you be a powerful capitalist merchant or a war king? The choice is up to you."
         },
         {
-            "icon": "star",
-            "title": "Modern and smooth User Experience.",
-            "description": "You decide how to invest your resources to expand your galactic empire."
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtMi45OTUgMi45OTUtNy40ODYgNC0xMSA0IDAgOC41ODIgNS4wNjggMTYuMDk3IDExIDIwIDUuOTMyLTMuOTAzIDExLTExLjQxOCAxMS0yMC0zLjUxNCAwLTguMDA1LTEuMDA1LTExLTR6bS04LjkxMiA1Ljg5NGMyLjQ1NS0uMjQ2IDUuOTEyLTEuMDEyIDguOTEyLTMuMjV2MTguOTA2Yy00LTMuMDYzLTguMjU0LTguNjA0LTguOTEyLTE1LjY1NnoiLz48L3N2Zz4=",
+            "title": "Develop perk technology.",
+            "description": "Focus on the technology you want. Craft standard, rare and legendary perks."
+        },
+        {
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjIgMjB2M2gtMjB2LTNoMjB6bTAtMTdjLTEuNSAwLTIuNjYyIDEuNjg1LTEuNTk4IDMuMTk0LjUzNS43NTkuNDA2IDEuMjE2LjA0NSAxLjc0OS0uNzY1IDEuMTI3LTEuODcyIDIuMDU3LTMuNDQ3IDIuMDU3LTIuNTIyIDAtMy44NTQtMi4wODMtNC4xMzEtMy44NDgtLjA5Ni0uNjE0LS4xNS0xLjA3NC40MzYtMS42NDQuNDk2LS40ODEuODI2LTEuMTUxLjY0NS0xLjk0Ny0uMTk2LS44NTctLjk2My0xLjU2MS0xLjk1LTEuNTYxLTEuMTA0IDAtMiAuODk2LTIgMiAwIC42MDUuMjkzIDEuMTE4LjY5NSAxLjUwOC41ODYuNTcuNTMxIDEuMDMuNDM2IDEuNjQ0LS4yNzggMS43NjQtMS42MSAzLjg0OC00LjEzMSAzLjg0OC0xLjU3NSAwLTIuNjgyLS45My0zLjQ0Ny0yLjA1OC0uMzYyLS41MzItLjQ5MS0uOTg5LjA0NS0xLjc0OCAxLjA2NC0xLjUwOS0uMDk4LTMuMTk0LTEuNTk4LTMuMTk0LTEuMTA0IDAtMiAuODk2LTIgMiAwIC43OTcuNDY0IDEuNDk1IDEuMTQ0IDEuODA4LjgyNS4zNzkuODU2IDEuMzE3Ljg1NiAyLjE3MXY5LjAyMWgyMHYtOS4wMjFjMC0uODU0LjAzMS0xLjc5Mi44NTYtMi4xNzEuNjgtLjMxMyAxLjE0NC0xLjAxMSAxLjE0NC0xLjgwOCAwLTEuMTA0LS44OTctMi0yLTJ6Ii8+PC9zdmc+",
+            "title": "Earn Reputation Ranks.",
+            "description": "Become the most powerful emperor of the galaxy. Make yourself stand out."
+        },
+        {
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNOC41NjYgMTcuODQyYy0uOTQ1IDIuNDYyLTMuNjc4IDQuMDEyLTYuNTYzIDQuMTYxLjEzOS0yLjc3MiAxLjY4NC01LjYwOCA0LjIwOS02LjU2M2wuNTEuNTIxYy0xLjUzNCAxLjUyMy0yLjA2MSAyLjc2NS0yLjE0NCAzLjQ2MS43MDQtLjA4NSAyLjAwNi0uNjA4IDMuNDgzLTIuMDk2bC41MDUuNTE2em0tMS4xMzYtMTEuMzQyYy0xLjc3OC0uMDEtNC4wNjIuOTExLTUuNzY2IDIuNjE0LS42NS42NDktMS4yMjIgMS40MDgtMS42NjQgMi4yNTggMS41MzgtMS4xNjMgMy4yMjgtMS40ODUgNS4xNDctLjQwOC41NjYtMS40OTQgMS4zMi0zLjAxNCAyLjI4My00LjQ2NHptNS4yMDQgMTcuNWMuODUyLS40NCAxLjYxLTEuMDEzIDIuMjYxLTEuNjY0IDEuNzA4LTEuNzA2IDIuNjIyLTQuMDAxIDIuNjA0LTUuNzgyLTEuNTc1IDEuMDMtMy4xMjUgMS43NzItNC40NjYgMi4yOTYgMS4wNzcgMS45Mi43NjQgMy42MTQtLjM5OSA1LjE1em0xMS4zMTItMjMuOTU2Yy0uNDI4LS4wMy0uODQ4LS4wNDQtMS4yNjEtLjA0NC05LjMzOCAwLTE0LjQ2NSA3LjQyNi0xNi4xMDEgMTMuMDA5bDQuNDI4IDQuNDI4YzUuNzgtMS44NTUgMTIuOTg4LTYuNzc3IDEyLjk4OC0xNS45OTN2LS4wNTljLS4wMDItLjQzNy0uMDE5LS44ODQtLjA1NC0xLjM0MXptLTUuOTQ2IDcuOTU2Yy0xLjEwNSAwLTItLjg5NS0yLTJzLjg5NS0yIDItMiAyIC44OTUgMiAyLS44OTUgMi0yIDJ6Ii8+PC9zdmc+",
+            "title": "Your actions make your fame.",
+            "description": "Will you be a General, a Trader, an Informant, a Governor or an Inventor?."
+        },
+        {
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAuMjYgNC4xNzFjLS41OC0uMjg2LTEuMDkzLS41MTctMS41ODEtLjcxOS43Ny0yLjA4IDEuODgyLTMuNDUyIDMuMzIxLTMuNDUyIDEuNDAyIDAgMi40OTQgMS4zMDEgMy4yNiAzLjI5Mi0uNDkyLjIxMS0uOTk4LjQ0Ny0xLjU3Mi43MzktLjU4OC0xLjU2Ny0xLjI1OC0yLjI3NS0xLjY4OC0yLjI3NS0uNDQyIDAtMS4xNC43NS0xLjc0IDIuNDE1em0xLjc0IDE4LjA3M2MtLjQyOSAwLTEuMS0uNzA4LTEuNjg4LTIuMjc1LS41OC4yOTUtMS4wODEuNTI4LTEuNTcyLjczOS43NjcgMS45OTEgMS44NTggMy4yOTIgMy4yNiAzLjI5MiAxLjQzOSAwIDIuNTUxLTEuMzcyIDMuMzIxLTMuNDUyLS40ODUtLjIwMS0uOTk3LS40MzEtMS41ODEtLjcxOS0uNiAxLjY2NS0xLjI5OCAyLjQxNS0xLjc0IDIuNDE1em0tNC43MDgtMi4yMTZjLTEuOTE3LjcwNS00Ljc3OCAxLjM5Mi01LjkxNi0uMzE3LS41NjItLjg0NS0uNzcxLTIuNDY4IDEuNDItNS40MDguNTgyLS43OCAxLjI1NC0xLjU0NSAxLjkzNy0yLjI0OSAxLjUzMS0xLjU1NCAzLjI1Ni0zLjA1IDUuNTA1LTQuNTk4LTEuMDgzLS41OTYtMi4yNjQtMS4xNjYtMy40MTYtMS41OTEtMS4xOC0uNDM0LTIuMjE5LS42NzUtMy4wMTUtLjY3NS0uNTA4IDAtLjg4Ni4xMDctMS4wMDkuMjg5LS4xMzEuMTkyLS4xMzguNzgzLjQ0NSAxLjg0MmwuMjEtLjAxMmMxLjA0OCAwIDEuODk3Ljg2NSAxLjg5NyAxLjkzMnMtLjg1IDEuOTMyLTEuODk3IDEuOTMyLTEuODk3LS44NjUtMS44OTctMS45MzJjMC0uMzQ1LjA4OS0uNjY5LjI0Ni0uOTUtMS4xMS0xLjk2LS44ODEtMy4xMzktLjQxOS0zLjgxNS4zMjQtLjQ3NiAxLjAwOS0xLjA0MiAyLjQyNC0xLjA0MiAyLjUxNCAwIDUuOTAxIDEuNjYgOC4wODIgMi45NDYgMi4yMTQtMS4zNjMgNS43MTctMy4xNiA4LjMwNC0zLjE2IDEuNDIxIDAgMi4xMDYuNTgxIDIuNDMxIDEuMDY5LjU2Mi44NDUuNzcxIDIuNDY4LTEuNDIgNS40MDctMy4wODQgNC4xMzctOS4yMTYgOC42MDYtMTMuOTEyIDEwLjMzMnptMTIuNTM4LTExLjM5NGMxLjUwNi0yLjAxOSAxLjU1Mi0zLjA4MiAxLjM2Ni0zLjM2MS0uMTI2LS4xODktLjQ5Mi0uMjk4LTEuMDAzLS4yOTgtMS45NTMgMC00LjkyNiAxLjQ1OS02LjYzOCAyLjQ0NyAxLjI2NS44MzcgMi40NDUgMS43MTkgMy41MjIgMi42MTctLjQwNy40MTMtLjgzNC44MTktMS4yNzEgMS4yMTEtMS4xOTUtLjk4NC0yLjUyMy0xLjk0Ny0zLjktMi44MTEtMS41ODEgMS4wMzctMy4xNzMgMi4yNTQtNC42MDMgMy41NTEgMS4wNzUuOTUxIDIuMzU2IDEuOTQ5IDMuNzIxIDIuODczLS41MjIuMzMxLTEuMDUuNjQ4LTEuNjUyLjk4bC0uMDEzLS4wMDljLTEuMTQ0LS44MTEtMi4yNzEtMS43MDEtMy4zMTYtMi42MzItMi44MTggMi44NzgtMy42MTIgNC45NjQtMy4yMzkgNS41MjUuMTI2LjE4OS40OTIuMjk4IDEuMDAzLjI5OCAyLjM1IDAgNi4wOC0yLjAxNyA4LjI4Ny0zLjQ2NCAyLjcwOS0xLjc3NiA1Ljc5OS00LjMyOCA3LjczNi02LjkyN3ptMi4zNzcgNy4wOTFjLjE0MS0uMjcuMjItLjU3Ny4yMi0uOTAzIDAtMS4wNjctLjg0OS0xLjkzMi0xLjg5Ny0xLjkzMnMtMS44OTcuODY1LTEuODk3IDEuOTMyLjg0OSAxLjkzMiAxLjg5NyAxLjkzMmwuMjU4LS4wMThjLjU1MyAxLjAyNC41NDQgMS41OTguNDE1IDEuNzg3LS4xMjQuMTgxLS41MDEuMjg4LTEuMDA5LjI4OC0xLjYwMiAwLTMuODMzLS45NDUtNS4yNy0xLjY1OC0uNDguMzQyLTEuMDc3Ljc0OC0xLjY1OSAxLjExOSAxLjkyNiAxLjAzNyA0Ljc1OCAyLjI5NSA2LjkyOSAyLjI5NSAxLjQxNSAwIDIuMS0uNTY2IDIuNDI0LTEuMDQyLjQ2MS0uNjc0LjY5LTEuODUtLjQxMS0zLjh6Ii8+PC9zdmc+",
+            "title": "Alliances.",
+            "description": "Join forces with other players and create alliances. Play by yourself or with friends."
         }
     ]
 }

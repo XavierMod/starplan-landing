@@ -4,7 +4,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 const FormWrapper = styled.div`
     max-width: 650px;
-    margin: 20px auto;
+    margin: 70px auto;
     padding: 0 30px;
 
     h1 {

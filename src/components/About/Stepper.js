@@ -58,13 +58,13 @@ function getSteps() {
 function getStepContent(stepIndex) {
   switch (stepIndex) {
     case 0:
-      return 'Select campaign settings...';
+      return "We are currently working on the development of Starplan. You can follow our latest updates on our subreddit r/Starplan. We'll let our community know when we release a closed Alpha.";
     case 1:
-      return 'What is an ad group anyways?';
+       return "At this stage, we'll have the barebones of Starplan setup and we'll do a closed Alpha for our community members on Reddit soon. Don't miss it out!";
     case 2:
-      return 'This is the bit I really care about!';
+      return "At Beta stage, we'll have the main app ready, but we will work on fixing bugs and other sort of problems. We'll release a crowdfunding campaign, a closed beta for the members of our Reddit community and an open beta.";
     case 3:
-        return 'sad';
+        return "When everything is ready, we'll officially release Starplan!";
     default:
       return 'Unknown stepIndex';
   }

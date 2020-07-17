@@ -22,6 +22,15 @@ const TeamSlide = styled.div`
         font-size: 12px;
         margin-top: 10px;
     }
+
+    span {
+        display: inline-block;
+        margin: 10px 0;
+        color: white;
+        font-size: 12px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
 `;
 
 const Team = () => {
@@ -33,11 +42,13 @@ const Team = () => {
                 <a target="_blank" href="https://www.xaviermod.com">
                     <h3>Xavier Mod</h3>
                     <p>Founder, Front-End Design and Development</p>
+                    <span>Check profile</span>
                 </a>
             </TeamSlide>
             <TeamSlide>
                 <h3>Aidan Gannon</h3>
                 <p>Co-founder, Back-End Development</p>
+                <span>Check profile</span>
             </TeamSlide>
         </TeamWrapper>
     )

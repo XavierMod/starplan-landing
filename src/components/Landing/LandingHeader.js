@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Button from '../Library/Button';
 import {largerThan, smallerThan} from '../../helpers/mediaQueries'
+import { Link } from 'gatsby';
 
 const LandingHeaderWrapper = styled.div`
     height: 620px;
@@ -78,12 +79,16 @@ const LandingHeader = (props) => {
                   <h1>{props.data.landingTitle}</h1>
                   <p>{props.data.landingDescription}</p>
                   <Buttons>
-                    <Button 
-                      type="bordered"
-                      body="PLAY IN THE BROWSER" />
+                  <Link to="/contact">
                     <Button 
                       type="solid"
-                      body="DOWNLOAD" />
+                       body="JOIN THE ALPHA"/>
+                  </Link>
+                  <a target="_blank" href="https://www.reddit.com/r/starplan/">
+                    <Button 
+                      type="bordered"
+                       body="LATEST NEWS"/>
+                  </a>
                   </Buttons>
                 </Content>
             </CenteredText>

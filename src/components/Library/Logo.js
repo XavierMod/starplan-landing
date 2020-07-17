@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 const LogoWrapper = styled.div`
   width: 150px;
@@ -22,9 +23,11 @@ const Logo = () => {
     }
   `)
   return (
-    <LogoWrapper>
-      <Img fluid={data.file.childImageSharp.fluid} />
-    </LogoWrapper>
+    <Link to="/">
+      <LogoWrapper>
+        <Img fluid={data.file.childImageSharp.fluid} />
+      </LogoWrapper>
+    </Link>
   )
 }
 
