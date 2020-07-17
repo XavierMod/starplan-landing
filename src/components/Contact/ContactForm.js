@@ -100,13 +100,9 @@ const ContactForm = () => {
                         <label htmlFor="message">Message (optional) </label>
                         <textarea name="message"></textarea>
                         <span>If you're applying to be part of the team, please tell us about you and attach your website link.</span>
-                    </p>
-                    <ReCAPTCHA
-                        sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
-                        onChange={() => setFormState(true)}
-                    /> 
+                    </p> 
                 <p>
-                    {formState ? <button type="submit">Send</button> : <Disabled disabled type="submit">Send</Disabled>}
+                    <button type="submit">Send</button>
                 </p>
             </form>
         </FormWrapper>
