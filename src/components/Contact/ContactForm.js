@@ -38,6 +38,7 @@ const FormWrapper = styled.div`
         border: 0;
         color: white;
         padding: 10px;
+        -webkit-appearance: none;
     }
 
     textarea {
