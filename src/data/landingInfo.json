@@ -1,0 +1,67 @@
+{
+    "currentGameVersion": "preAlpha",
+    "landingTitle": "Build your galactic empire. Trade. Raid.",
+    "landingDescription": "Starplan is a real-time browser multiplayer game (MMO) where players build their own galactic empires.",
+    "navBarLinks": [
+        {
+            "linkName": "Home",
+            "path": "/"
+        },
+        {
+            "linkName": "About",
+            "path": "/about"
+        },
+        {
+            "linkName": "Changelog",
+            "path": "https://www.reddit.com/r/starplan/wiki/changelog"
+        },
+        {
+            "linkName": "News",
+            "path": "https://www.reddit.com/r/starplan/"
+        }
+    ],
+    "socialLinks": [
+        {
+            "socialLink": "Reddit",
+            "path": "/",
+            "icon": "https://unpkg.com/simple-icons@v2/icons/reddit.svg"
+        },
+        {
+            "socialLink": "Reddit",
+            "path": "/",
+            "icon": "https://unpkg.com/simple-icons@v2/icons/reddit.svg"
+        }
+    ],
+    "features": [
+        {
+            "icon": "star",
+            "title": "Your resources. Your empire.",
+            "description": "You decide how to invest your resources to expand your galactic empire."
+        },
+            {
+            "icon": "star",
+            "title": "Text-Based Gameplay.",
+            "description": "Starplan can be accessed anywhere with an internet connection on all devices."
+        },
+        {
+            "icon": "star",
+            "title": "Modern and smooth User Experience.",
+            "description": "You decide how to invest your resources to expand your galactic empire."
+        },
+        {
+            "icon": "star",
+            "title": "Modern and smooth User Experience.",
+            "description": "You decide how to invest your resources to expand your galactic empire."
+        },
+        {
+            "icon": "star",
+            "title": "Modern and smooth User Experience.",
+            "description": "You decide how to invest your resources to expand your galactic empire."
+        },
+        {
+            "icon": "star",
+            "title": "Modern and smooth User Experience.",
+            "description": "You decide how to invest your resources to expand your galactic empire."
+        }
+    ]
+}
