@@ -66,7 +66,7 @@ const ContactForm = () => {
             <form action="/success" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                 <input type="hidden" name="contact" value="Contact Form" />
                     <p>
-                        <label>Contact options</label>
+                        <label htmlFor="options">Contact options</label>
                         <select required name="options">
                             <option value="0">What are you interested in?</option>
                             <option value="1">I'd like to join the alpha</option>
@@ -76,17 +76,17 @@ const ContactForm = () => {
                         <span>A contact option must be selected.</span>
                     </p>
                     <p>
-                        <label>Your email</label>
+                        <label htmlFor="email">Your email</label>
                         <input required type="email" name="email" />
                         <span>This is where we'll contact you.</span>
                     </p>
                     <p>
-                        <label>Location</label>
+                        <label htmlFor="location">Location</label>
                         <input required type="text" name="location" />
                         <span>Where are you based?</span>
                     </p>
                     <p>
-                        <label>Message (optional) </label>
+                        <label htmlFor="message">Message (optional) </label>
                         <textarea name="message"></textarea>
                         <span>If you're applying to be part of the team, please tell us about you and attach your website link.</span>
                     </p>
@@ -95,7 +95,7 @@ const ContactForm = () => {
                         onChange={() => console.log('test')}
                     /> 
                 <p>
-                    <button type="submit">Send</button>
+                    <input type="submit">Send</input>
                 </p>
             </form>
         </FormWrapper>
