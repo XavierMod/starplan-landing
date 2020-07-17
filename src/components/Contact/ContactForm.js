@@ -64,40 +64,40 @@ const ContactForm = () => {
         <FormWrapper>
             <h1>Let's make Starplan together.</h1>
             <form action="/success" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-            <input type="hidden" name="contact" value="Contact Form" />
+                <input type="hidden" name="contact" value="Contact Form" />
+                    <p>
+                        <label>Contact options</label>
+                        <select required name="options">
+                            <option value="0">What are you interested in?</option>
+                            <option value="1">I'd like to join the alpha</option>
+                            <option value="2">I'd like to be part of the team</option>
+                            <option value="3">Business enquiries</option>
+                        </select>
+                        <span>A contact option must be selected.</span>
+                    </p>
+                    <p>
+                        <label>Your email</label>
+                        <input required type="email" name="email" />
+                        <span>This is where we'll contact you.</span>
+                    </p>
+                    <p>
+                        <label>Location</label>
+                        <input required type="text" name="location" />
+                        <span>Where are you based?</span>
+                    </p>
+                    <p>
+                        <label>Message (optional) </label>
+                        <textarea name="message"></textarea>
+                        <span>If you're applying to be part of the team, please tell us about you and attach your website link.</span>
+                    </p>
+                    <ReCAPTCHA
+                        sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
+                        onChange={() => console.log('test')}
+                    />
+                    
                 <p>
-                    <label>Contact options</label>
-                    <select required name="options">
-                        <option value="0">What are you interested in?</option>
-                        <option value="1">I'd like to join the alpha</option>
-                        <option value="2">I'd like to be part of the team</option>
-                        <option value="3">Business enquiries</option>
-                    </select>
-                    <span>A contact option must be selected.</span>
+                    <button type="submit">Send</button>
                 </p>
-                <p>
-                    <label>Your email</label>
-                    <input required type="email" name="email" />
-                    <span>This is where we'll contact you.</span>
-                </p>
-                <p>
-                    <label>Location</label>
-                    <input required type="text" name="location" />
-                    <span>Where are you based?</span>
-                </p>
-                <p>
-                    <label>Message (optional) </label>
-                    <textarea name="message"></textarea>
-                    <span>If you're applying to be part of the team, please tell us about you and attach your website link.</span>
-                </p>
-                <ReCAPTCHA
-                    sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
-                    onChange={() => console.log('test')}
-                />
-                
-            <p>
-                <button type="submit">Send</button>
-            </p>
             </form>
         </FormWrapper>
     )

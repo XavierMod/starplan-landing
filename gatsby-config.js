@@ -19,6 +19,7 @@ module.exports = {
     `gatsby-plugin-mdx`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-playground`,
+    `gatsby-plugin-recaptcha`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
