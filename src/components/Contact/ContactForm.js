@@ -63,32 +63,26 @@ const ContactForm = () => {
     return (
         <FormWrapper>
             <h1>Let's make Starplan together.</h1>
-            <form 
-                action="/success" 
-                name="contact" 
-                method="POST" 
-                data-netlify="true">
-
-                <input type="hidden" name="contact" value="Contact Form" />
-                    <p>
-                        <label htmlFor="email">Your email</label>
-                        <input required type="email" name="email" />
-                        <span>This is where we'll contact you.</span>
-                    </p>
-                    <p>
-                        <label htmlFor="location">Location</label>
-                        <input required type="text" name="location" />
-                        <span>Where are you based?</span>
-                    </p>
-                    <p>
-                        <label htmlFor="message">Message (optional) </label>
-                        <textarea name="message"></textarea>
-                        <span>If you're applying to be part of the team, please tell us about you and attach your website link.</span>
-                    </p>
-                <p>
-                    <button type="submit">Send</button>
-                </p>
-            </form>
+            <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
         </FormWrapper>
     )
 }
