@@ -67,6 +67,7 @@ const ContactForm = () => {
                 action="/success" 
                 name="contact" 
                 method="POST" 
+                data-netlify-recaptcha="true"
                 data-netlify-honeypot="bot-field" 
                 data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
@@ -95,6 +96,10 @@ const ContactForm = () => {
                         <textarea name="message"></textarea>
                         <span>If you're applying to be part of the team, please tell us about you and attach your website link.</span>
                     </p>
+                    <ReCAPTCHA
+                        sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
+                        onChange={() => console.log('test')}
+                    /> 
                 <p>
                     <button type="submit">Send</button>
                 </p>
