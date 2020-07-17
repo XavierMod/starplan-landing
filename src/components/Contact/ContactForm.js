@@ -90,7 +90,6 @@ const ContactForm = () => {
                     <textarea name="message"></textarea>
                     <span>If you're applying to be part of the team, please tell us about you and attach your website link.</span>
                 </p>
-                <div data-netlify-recaptcha="true"></div>
                 <ReCAPTCHA
                     sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
                     onChange={() => console.log('test')}
