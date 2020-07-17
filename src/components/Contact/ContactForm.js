@@ -63,18 +63,14 @@ const ContactForm = () => {
     return (
         <FormWrapper>
             <h1>Let's make Starplan together.</h1>
-            <form action="/success" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <form 
+                action="/success" 
+                name="contact" 
+                method="POST" 
+                data-netlify-recaptcha="true" 
+                data-netlify="true">
+
                 <input type="hidden" name="contact" value="Contact Form" />
-                    <p>
-                        <label htmlFor="options">Contact options</label>
-                        <select required name="options">
-                            <option value="0">What are you interested in?</option>
-                            <option value="1">I'd like to join the alpha</option>
-                            <option value="2">I'd like to be part of the team</option>
-                            <option value="3">Business enquiries</option>
-                        </select>
-                        <span>A contact option must be selected.</span>
-                    </p>
                     <p>
                         <label htmlFor="email">Your email</label>
                         <input required type="email" name="email" />
@@ -95,7 +91,7 @@ const ContactForm = () => {
                         onChange={() => console.log('test')}
                     /> 
                 <p>
-                    <input type="submit">Send</input>
+                    <button type="submit">Send</button>
                 </p>
             </form>
         </FormWrapper>
