@@ -63,7 +63,7 @@ const ContactForm = () => {
     return (
         <FormWrapper>
             <h1>Let's make Starplan together.</h1>
-            <form action="/success" name="contact" method="POST"  data-netlify="true">
+            <form action="/success" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                 <input type="hidden" name="contact" value="Contact Form" />
                     <p>
                         <label>Contact options</label>
@@ -89,7 +89,11 @@ const ContactForm = () => {
                         <label>Message (optional) </label>
                         <textarea name="message"></textarea>
                         <span>If you're applying to be part of the team, please tell us about you and attach your website link.</span>
-                    </p>                   
+                    </p>
+                    <ReCAPTCHA
+                        sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
+                        onChange={() => console.log('test')}
+                    /> 
                 <p>
                     <button type="submit">Send</button>
                 </p>
