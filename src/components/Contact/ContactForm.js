@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import styled from 'styled-components'
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -57,9 +57,14 @@ const FormWrapper = styled.div`
     }
 `;
 
+const Disabled = styled.button`
+    opacity: 0.6;
+`;
+
 const ContactForm = () => {
     console.log('test', process.env.GATSBY_SITE_RECAPTCHA_KEY);
     console.log('test', process.env.TEST);
+    const [formState, setFormState] = useState(false);
     return (
         <FormWrapper>
             <h1>Let's make Starplan together.</h1>
@@ -67,10 +72,10 @@ const ContactForm = () => {
                 action="/success" 
                 name="contact" 
                 method="POST" 
-                data-netlify-recaptcha="true"
                 data-netlify-honeypot="bot-field" 
                 data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
+
                     <p>
                         <label htmlFor="options">Contact options</label>
                         <select required name="options">
@@ -98,10 +103,10 @@ const ContactForm = () => {
                     </p>
                     <ReCAPTCHA
                         sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
-                        onChange={() => console.log('test')}
+                        onChange={() => setFormState(true)}
                     /> 
                 <p>
-                    <button type="submit">Send</button>
+                    {formState ? <button type="submit">Send</button> : <Disabled disabled type="submit">Send</Disabled>}
                 </p>
             </form>
         </FormWrapper>
