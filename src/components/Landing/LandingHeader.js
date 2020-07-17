@@ -84,11 +84,6 @@ const LandingHeader = (props) => {
                       type="solid"
                        body="JOIN THE ALPHA"/>
                   </Link>
-                  <a target="_blank" href="https://www.reddit.com/r/starplan/">
-                    <Button 
-                      type="bordered"
-                       body="LATEST NEWS"/>
-                  </a>
                   </Buttons>
                 </Content>
             </CenteredText>
